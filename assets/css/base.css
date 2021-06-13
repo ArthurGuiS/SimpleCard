@@ -1,0 +1,13 @@
+:root {
+    --branco: #FFF;
+    --azul-escuro: #090b1a;
+    --des-azul-escuro: #1b1938;
+    --violeta-soft: #aa5cdb;
+    --font-inter: 'Inter', sans-serif;
+    --font-lexend: 'Lexend Deca', sans-serif;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
