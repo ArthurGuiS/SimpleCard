@@ -19,26 +19,52 @@
 
     width: 50%;
     padding: 10px;
+
+    padding: 2.5rem;
 }
 
 .card__titulo {
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
 
+#rx {
+    color: var(--violeta-soft);
 }
 
 .card__texto {
-
+    font-family: var(--font-lexend);
+    font-size: 0.9rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
 }
 
 .card__num {
-
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3.8rem;
 }
 
 .card__item {
     list-style-type: none;
+    margin-top: 1rem;
+}
+
+.num__num {
+    font-family: var(--font-inter);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 .num__texto {
-
+    font-family: var(--font-inter);
+    font-weight: lighter;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    
 }
 
 .card__imagem {
