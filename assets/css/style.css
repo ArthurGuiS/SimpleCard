@@ -71,3 +71,48 @@
     width: 50%;
     border-radius: 0px 10px 10px 0px;
 }
+
+
+@media screen and (max-width: 425px){
+    .container {
+        height: auto;
+    }
+    
+    .card {
+        flex-direction: column;
+        width: 80%;
+        margin: 5rem auto;
+        
+    }
+
+    .card__info {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .card__titulo {
+        font-size: 1.4rem;
+    }
+
+    .card__texto {
+        font-size: 0.9rem;
+        margin: 3rem auto;
+        text-align: center;
+    }
+
+    .card__imagem {
+        order: -1;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__num {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+}
